@@ -33,16 +33,16 @@ calcula = Calculadora(a,b)
 
 # Retornando e exibindo o método de soma
 calcula.soma()
-print(a ,'+', b ,'=', calcula.soma())
+print(calcula.soma())
 
 # Retornando e exibindo o método de subtração
 calcula.subtrai()
-print(a ,'-', b ,'=', calcula.subtrai())
+print(calcula.subtrai())
 
 # Retornando e exibindo o método de multiplicação
 calcula.multiplica()
-print(a ,'*', b ,'=', calcula.multiplica())
+print(calcula.multiplica())
 
 # Retornando e exibindo o método de divisão
 calcula.divide()
-print(a ,'/', b ,'=', calcula.divide())
+print(calcula.divide())
