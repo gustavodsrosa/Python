@@ -15,7 +15,14 @@ class Pessoa:
         self.emprego = emprego
         self.dependentes = dependentes
 
-    def calcular_salario():
-        
+    def calcular_salario(self):
+        qtd = len(self.dependentes)
+        porcentagem = self.emprego.bonus * qtd
+        salario = self.emrepgo.salario * (self.emprego.salario*porcentagem/100)
+        print(salario)
 
+
+# Instanciamento do objeto 
+emprego = Emprego('Analista de TI', 'TI', 3000, 10)
+pessoa = Pessoa()
 

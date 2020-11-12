@@ -25,7 +25,7 @@ class Cachorro(Animal):
         super().__init__(nome, idade)
 
     def emitir_som(self):
-        print("Au Au") 
+        print("Au Au")
 
 
 class Gato(Animal):

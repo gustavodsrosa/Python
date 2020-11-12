@@ -13,7 +13,7 @@ try:
 except ZeroDivisionError:
     print('Erro. Não pode dividir por zero')
 except ValueError:
-    print('Erro. Número inválido')
+    print('Erro. Número inválido')1
 except NameError:
     print('Erro. Nome de variável inválido')
 except RuntimeError:
