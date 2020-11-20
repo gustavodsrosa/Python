@@ -12,7 +12,7 @@ produtos = {
     'Requeijão': 8.90,
     'Cesta Básica': 58.99,
     'Panela de pressão': 108.00,
-    'Liquidificador':60.00
+    'Liquidificador': 60.00
 }
 
 lista = []
