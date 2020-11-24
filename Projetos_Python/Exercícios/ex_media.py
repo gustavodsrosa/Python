@@ -15,7 +15,6 @@ n4 = []
 media = []
 aprovados = []
 reprovados = []
-media_geral = []
 
 for i in range(10):
     nome = str(input("Digite o nome do aluno(a): "))
@@ -54,7 +53,6 @@ med_inicial = media[0] + media[1] + media[2] + media[3] + media[4]
 med_final = media[5] + media[6] + media[7] + media[8] + media[9]
 
 med_geral = (med_inicial + med_final)/10
-media_geral.append(med_geral)
 
 print("Lista de Alunos: ", nome_alunos)
 print("Lista de Notas: ", n1)
@@ -63,4 +61,4 @@ print("Lista de Notas: ", n3)
 print("Lista de Notas: ", n4)
 print("Aprovados: ", len(aprovados))
 print("Reprovados: ", len(reprovados))
-print("Média Geral: ", media_geral)
+print("Média Geral: ", med_geral)
